@@ -6,7 +6,7 @@
                     <div class="">
 
                         <ul>
-                            <li class="list-title">dc comics</li>
+                            <li id="white_title">dc comics</li>
                             <li class="col-list-content"><a href="#">Characters</a></li>
                             <li class="col-list-content"><a href="#">Comics</a></li>
                             <li class="col-list-content"><a href="#">Movies</a></li>
@@ -16,7 +16,7 @@
                         </ul>
 
                         <ul>
-                            <li class="list-title">shop</li>
+                            <li id="white_title">shop</li>
                             <li class="col-list-content"><a href="#">shop DC</a></li>
 
                             <li class="col-list-content"><a href="#">shop DC Collectibles</a></li>
@@ -28,7 +28,7 @@
 
 
                         <ul>
-                            <li class="list-title">DC</li>
+                            <li id="white_title">DC</li>
                             <li class="col-list-content"><a href="#">Terms Of Use</a></li>
                             <li class="col-list-content"><a href="#">Privacy policy(New)</a></li>
                             <li class="col-list-content"><a href="#">Ad Choises</a></li>
@@ -47,7 +47,7 @@
 
 
                         <ul>
-                            <li class="list-title"><a href="#">Sities</a></li>
+                            <li id="white_title"><a href="#">Sities</a></li>
                             <li class="col-list-content"><a href="#">DC</a></li>
                             <li class="col-list-content"><a href="#">MAD Magazine</a></li>
                             <li class="col-list-content"><a href="#">DC Kids</a></li>
@@ -103,11 +103,16 @@ export default {
 
             padding: 20px 0;
 
-            .list_title {
+            #white_title {
                 color: white;
                 text-transform: uppercase;
                 font-size: 20px;
+                margin-bottom:5px;
+
+             
             }
+
+         
 
             .col-list-content {
                 color: #627274;

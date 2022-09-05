@@ -4,7 +4,8 @@
     <MainContent></MainContent>
     <SecondContent></SecondContent>
     <MainFooter></MainFooter>
-    <FooterOne></FooterOne>
+    <FooterButton></FooterButton>
+   
   </div>
 </template>
 
@@ -13,7 +14,8 @@ import MainHeader from './components/MainHeader.vue'
 import MainContent from './components/MainContent.vue'
 import SecondContent from './components/SecondContent.vue'
 import MainFooter from './components/MainFooter.vue'
-import FooterOne from './components/FooterOne.vue'
+import FooterButton from './components/FooterButton.vue'
+
 
 
 export default {
@@ -23,7 +25,8 @@ export default {
     MainContent,
     SecondContent,
     MainFooter,
-    FooterOne,
+    FooterButton,
+    
    
 },
 
