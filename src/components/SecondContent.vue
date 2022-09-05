@@ -102,8 +102,8 @@ export default {
             
 
             .img_content {
-                width: 50px;
-                height: 60px;
+                width: 40px;
+                height: 50px;
                 
             }
         }

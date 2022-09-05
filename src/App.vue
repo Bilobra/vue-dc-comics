@@ -3,6 +3,7 @@
    <MainHeader></MainHeader>
    <MainContent></MainContent>
    <SecondContent></SecondContent>
+   <MainFooter></MainFooter>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import MainHeader from './components/MainHeader.vue'
 import MainContent from './components/MainContent.vue'
 import SecondContent from './components/SecondContent.vue'
+import MainFooter from './components/MainFooter.vue'
 
 export default {
   name: 'App',
@@ -17,6 +19,7 @@ export default {
     MainHeader,
     MainContent,
     SecondContent,
+    MainFooter,
   },
  
 }
