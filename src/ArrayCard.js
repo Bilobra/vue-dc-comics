@@ -24,22 +24,22 @@ const Cards = [
         type: "comic book"
     },
     {
-        thu: "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/BM_56_300-001_HD_5ba137a85c3bf3.33122291.jpg?itok=3FHJQYJZ",
-        pri: "$3.99",
-        seri: "Batman",
-        ty: "comic book"
+        thumb: "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/BM_56_300-001_HD_5ba137a85c3bf3.33122291.jpg?itok=3FHJQYJZ",
+        price: "$3.99",
+        series: "Batman",
+        type: "comic book"
     },
     {
-        thum: "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/BM_56_300-001_HD_5ba137a85c3bf3.33122291.jpg?itok=3FHJQYJZ",
-        pric: "$2.99",
-        serie: "Batman Beyond",
-        typ: "comic book"
+        thumb: "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/BM_56_300-001_HD_5ba137a85c3bf3.33122291.jpg?itok=3FHJQYJZ",
+        price: "$2.99",
+        series: "Batman Beyond",
+        type: "comic book"
     },
     {
-        thum: "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2019/08/BMSM_5d4361b7116261.74371456.jpg?itok=kEDR2OL8",
-        pric: "$3.99",
-        serie: "Batman/Superman",
-        typ: "comic book"
+        thumb: "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2019/08/BMSM_5d4361b7116261.74371456.jpg?itok=kEDR2OL8",
+        price: "$3.99",
+        series: "Batman/Superman",
+        type: "comic book"
     },
     {
         thumb: "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2020/09/BMSMANN_01_300-001_HD_5f5ff17fa1d665.74704970.jpg?itok=azz5sfGk",
@@ -54,10 +54,10 @@ const Cards = [
         type: "comic book"
     },
     {
-        thum: "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2020/08/cover-v2_5f40314645a734.37285065.png?itok=ImNM2QBY",
-        pric: "$6.99",
-        serie: "Batman: Three Jokers",
-        typ: "comic book"
+        thumb: "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2020/08/cover-v2_5f40314645a734.37285065.png?itok=ImNM2QBY",
+        price: "$6.99",
+        series: "Batman: Three Jokers",
+        type: "comic book"
     },
     {
         thumb: "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2020/10/BMWK_HQ_01_300-001_HD_5f7cb4945e13f6.89501032.jpg?itok=sVwALbUX",

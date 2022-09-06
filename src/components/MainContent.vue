@@ -2,9 +2,8 @@
     <section class="black_section">
         <div class="container">
             <div class="main_content">
-                <div class="card">
-
-                </div>
+                <ProductCard v-for = "(card,i) in CardsArray" :key="i" :src="card.thumb" :series="card.series" :price="card.price">
+                </ProductCard>
             </div>
         </div>
 
@@ -14,8 +13,12 @@
 <script>
 
 import CardsArray from '../ArrayCard'
+import ProductCard from './ProductCard.vue'
 
 export default {
+    components:{
+        ProductCard,
+    },
     data() {
         return {
             CardsArray,
@@ -35,9 +38,6 @@ export default {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 
-    .card {
-        padding: 5px;
-        background-color: white;
-    }
+   
 }
 </style>
