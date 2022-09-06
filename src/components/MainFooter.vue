@@ -61,7 +61,7 @@
                 </div>
                 <div class="col col-img-bg">
                     <div class="logo_footer">
-                        <img src="../assets/dc-logo-bg.png" alt="logo bg">
+                        <!-- <img src="../assets/dc-logo-bg.png" alt="logo bg"> -->
                     </div>
                 </div>
             </div>
@@ -80,10 +80,16 @@ export default {
     background-image: url('../assets/footer-bg.jpg');
     background-size: cover;
     background-position: center;
-    padding: 30px 0;
-    height: 550px;
+    // padding: 30px 0;
+    // height: 550px;
 
 
+}
+
+.container{
+    background-image: url('../assets/dc-logo-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .row {
@@ -107,12 +113,12 @@ export default {
                 color: white;
                 text-transform: uppercase;
                 font-size: 20px;
-                margin-bottom:5px;
+                margin-bottom: 5px;
 
-             
+
             }
 
-         
+
 
             .col-list-content {
                 color: #627274;
@@ -125,12 +131,21 @@ export default {
 
         }
     }
-    .col-img-bg{
-       .logo_footer{
-        width: 90%;
-       }
-    }
 
-    
+    // .col-img-bg {
+    //     position: relative;
+    //     .logo_footer {
+           
+
+    //         img {
+    //             height: 100%;
+    //             position: absolute;
+    //             top: 50%;
+    //             transform: translateY(-50%);
+    //         }
+    //     }
+    // }
+
+
 }
 </style>

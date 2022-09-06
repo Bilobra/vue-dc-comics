@@ -2,7 +2,9 @@
     <section class="black_section">
         <div class="container">
             <div class="main_content">
-                <h2> -- Content goes here -- </h2>
+                <div class="card">
+
+                </div>
             </div>
         </div>
 
@@ -10,8 +12,15 @@
 </template>
 
 <script>
-export default {
 
+import CardsArray from '../ArrayCard'
+
+export default {
+    data() {
+        return {
+            CardsArray,
+        }
+    }
 }
 </script>
 
@@ -22,7 +31,13 @@ export default {
 }
 
 .main_content {
-    color: white;
-    font-size: 1.2rem
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+    .card {
+        padding: 5px;
+        background-color: white;
+    }
 }
 </style>
