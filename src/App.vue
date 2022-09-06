@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <MainHeader></MainHeader>
+    <BgContent></BgContent>
     <MainContent></MainContent>
     <SecondContent></SecondContent>
     <MainFooter></MainFooter>
@@ -15,6 +16,7 @@ import MainContent from './components/MainContent.vue'
 import SecondContent from './components/SecondContent.vue'
 import MainFooter from './components/MainFooter.vue'
 import FooterButton from './components/FooterButton.vue'
+import BgContent from './components/BgContent.vue'
 
 
 
@@ -26,6 +28,7 @@ export default {
     SecondContent,
     MainFooter,
     FooterButton,
+    BgContent,
     
    
 },

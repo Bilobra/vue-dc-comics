@@ -2,7 +2,7 @@
     <section class="black_section">
         <div class="container">
             <div class="main_content">
-                <ProductCard v-for = "(card,i) in CardsArray" :key="i" :src="card.thumb" :series="card.series" :price="card.price">
+                <ProductCard v-for = "(card,i) in CardsArray" :key="i" :thumb="card.thumb" :series="card.series" :price="card.price">
                 </ProductCard>
             </div>
         </div>
