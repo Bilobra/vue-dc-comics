@@ -43,7 +43,7 @@ export default {
     // grid-template-columns: repeat(6, 1fr);
     // row-gap: 100px;
     // column-gap: 100px;
-
+    padding-top: 40px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;

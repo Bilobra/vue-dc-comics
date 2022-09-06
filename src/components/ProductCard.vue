@@ -44,5 +44,8 @@ export default {
         text-transform: uppercase;
         font-size: 14px;
     }
+    h4{
+        color:#627274;
+    }
 }
 </style>

@@ -122,9 +122,14 @@ export default {
 
             .col-list-content {
                 color: #627274;
-                font-size: 18px;
+                font-size: 15px;
                 line-height: 20px;
-                padding: 5px 0
+                padding: 5px 0;
+                transition: all 200ms;
+
+                &:hover{
+                    color:white;
+                }
             }
 
 

@@ -6,20 +6,16 @@
             <div class="nav-wrapper">
 
                 <div class="logo">
-                    <img src="../assets/dc-logo.png" alt="logo dc">
+                    <img :src="logo" alt="logo dc">
                 </div>
                 <nav class="nav">
                     <ul>
-                        <li class="nav-link"><a href="#">characters</a></li>
-                        <li class="nav-link"><a href="#">comics</a></li>
-                        <li class="nav-link"><a href="#">movies</a></li>
-                        <li class="nav-link"><a href="#">tv</a></li>
-                        <li class="nav-link"><a href="#">games</a></li>
-                        <li class="nav-link"><a href="#">collectibles</a></li>
-                        <li class="nav-link"><a href="#">videos</a></li>
-                        <li class="nav-link"><a href="#">fans</a></li>
-                        <li class="nav-link"><a href="#">news</a></li>
-                        <li class="nav-link"><a href="#">shop</a></li>
+                        <li v-for="(link, i) in links" :key="i" :class="[link.current ? 'active' : '', 'nav-link']">
+                            <a :href="link.href">
+                                {{ link.text }}
+                            </a>
+                        </li>
+
                     </ul>
                 </nav>
             </div>
@@ -30,27 +26,100 @@
 
 
 <script>
-export default {
 
+import logo from '../assets/dc-logo.png'
+export default {
+    data() {
+        return {
+            logo:logo,
+            links: [
+                {
+                    text: 'Characters',
+                    href: '#',
+                    current: false,
+                }, {
+                    text: 'Comics',
+                    href: '#',
+                    current: true,
+                },
+                {
+                    text: 'Movies',
+                    href: '#',
+                    current: false,
+                },
+                {
+                    text: 'Tv',
+                    href: '#',
+                    current: false,
+                },
+                {
+                    text: 'Games',
+                    href: '#',
+                    current: false,
+                },
+                {
+                    text: 'Collectibles',
+                    href: '#',
+                    current: false,
+                },
+                {
+                    text: 'Videos',
+                    href: '#',
+                    current: false,
+                },
+                {
+                    text: 'Fans',
+                    href: '#',
+                    current: false,
+                },
+                {
+                    text: 'News',
+                    href: '#',
+                    current: false,
+                },
+                {
+                    text: 'Shop',
+                    href: '#',
+                    current: false,
+                },
+            ]
+        }
+    }
 }
 </script>
 
 <style lang="scss" scoped>
-header{
+header {
     padding: 60px 0;
 }
-.nav-wrapper{
+
+.nav-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    .nav{
-        ul{
+
+    .nav {
+        ul {
             display: flex;
-            gap:1rem;
-            text-transform: uppercase;
-            font-size: 18px;
-        
+            gap: 1rem;
+
+
+            .nav-link {
+                text-transform: uppercase;
+                font-size: 18px;
+
+
+
+                &.active,
+                &:hover {
+                    color: #0282F9;
+                    border-bottom: 1px solid #0282F9;
+
+                }
+
+
+            }
         }
     }
 }
